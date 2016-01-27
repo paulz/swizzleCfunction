@@ -1,0 +1,22 @@
+PODS:
+  - fishhook (0.2)
+  - Kiwi (2.4.0)
+  - swizzleCfunction (0.1.0):
+    - fishhook (~> 0.2)
+
+DEPENDENCIES:
+  - Kiwi
+  - swizzleCfunction (from `../`)
+
+EXTERNAL SOURCES:
+  swizzleCfunction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  swizzleCfunction: b534c5af5100766316e8163704b5a368bfb1c750
+
+PODFILE CHECKSUM: 6b8a2046148f39d814ef226002d698baceb51840
+
+COCOAPODS: 1.0.0.beta.2
