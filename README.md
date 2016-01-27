@@ -8,7 +8,7 @@
 ## Usage
 
 ```
-[SwizzleFunction:@"kill" with:@"doNotKill" whileExecuting:^{
+[PZSwizzle function:@"kill" with:@"doNotKill" whileExecuting:^{
     [CrashReporter simulateCrashBySignal:9];
 }];
 ```
