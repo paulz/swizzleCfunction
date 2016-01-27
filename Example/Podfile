@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'swizzleCfunction_Example', :exclusive => true do
+  pod 'swizzleCfunction', :path => '../'
+end
+
+target 'swizzleCfunction_Tests', :exclusive => true do
+  pod 'swizzleCfunction', :path => '../'
+
+  pod 'Kiwi'
+end

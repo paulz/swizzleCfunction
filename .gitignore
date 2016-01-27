@@ -7,6 +7,10 @@ build/
 DerivedData
 
 ## Various settings
+# OS X
+.DS_Store
+
+# Xcode
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -17,7 +21,9 @@ DerivedData
 !default.perspectivev3
 xcuserdata
 
+
 ## Other
+profile
 *.xccheckout
 *.moved-aside
 *.xcuserstate
@@ -51,3 +57,7 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+
+# Bundler
+.bundle
+
